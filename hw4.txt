@@ -1,0 +1,15 @@
+4. Ќаписать метод, принимающий на вход два числа, и провер€ющий, что их сумма лежит в пределах от 10 до 20 (включительно), если да Ц вернуть true, в противном случае Ц false;
+
+
+public class homework_4 {
+    public static void main (String[] args){
+     boolean a = work(1, 19);
+     System.out.println(a);
+    }
+    static boolean work(int x, int y){
+     int a = x + y;
+     return  10 < a && a <= 20;
+
+    }
+
+}

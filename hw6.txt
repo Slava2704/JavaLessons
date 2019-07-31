@@ -1,0 +1,11 @@
+6. Написать метод, которому в качестве параметра передается целое число, метод должен вернуть true, если число отрицательное;
+
+public class HomeWork_6 {
+    public static void main(String[] args) {
+        boolean a = work(-4);
+        System.out.println(a);
+    }
+        static boolean work(int x){
+        return (0 > x);
+    }
+}
