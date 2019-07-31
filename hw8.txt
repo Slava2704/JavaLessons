@@ -6,7 +6,7 @@ public class HomeWork_8 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
         System.out.println("Чтобы узнать Високосный ли код, введите его");
-        String year = userInput.nextLine();
+        int year = userInput.nextInt();
         userInput.close();
         if ( ((year % 4 == 0) && !(year % 100 == 0)) || (year % 400== 0) ){
             System.out.println("Ваш год Високосный");
@@ -17,6 +17,3 @@ public class HomeWork_8 {
 
     }
 }
-
-
-Вот по этой задаче ечть вопрос, но не стыкуется тип String year = userInput.nextLine()!
